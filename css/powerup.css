@@ -1,0 +1,181 @@
+/* Author customer styles */
+
+*::-webkit-scrollbar { 
+    	display: none; 
+	}
+
+.goRight {
+	float:right;
+}
+
+textarea {
+	resize: none;
+}
+
+body {
+	background: #fff;
+	background-color: transparent;
+	color: #ddd;
+}
+
+.reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	color: #eee;
+}
+
+.reveal .slides section.center {
+	
+	overflow-y: scroll;
+}
+
+.reveal {
+	background-color: transparent;
+	color: #ddd;
+}
+
+.reveal.cube .slides section:not(.stack):after {
+	box-shadow: 0 95px 35px rgba(0,0,0,0);
+}
+
+.reveal .progress span {
+	background: rgba(0,114,188, 1);
+}
+
+.reveal.cube .slides section:not(.stack):before {
+	background: rgba(0,0,0,0.6);
+}
+
+.reveal .controls div {
+	opacity: 0;
+}
+
+.reveal p {
+	font-size: 80%;
+}
+
+
+
+p.darktext {
+	
+	color: #383d3d;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.reveal ul {
+	list-style-type: none;
+	color: #8c8c8c;
+	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+	margin-bottom: 15px;
+}
+
+.reveal div.borderRight {
+	border-right: 1px solid #fff;
+}
+
+.reveal div.borderBottom {
+	border-bottom: 1px solid #fff;
+}
+
+hr.navHR {
+	margin-bottom: 0;
+}
+
+.reveal a:not(.image) {
+  color: #8c8c8c;
+  text-decoration: none;
+  -webkit-transition: color .25s ease;
+  -moz-transition: color .25s ease;
+  -ms-transition: color .25s ease;
+  -o-transition: color .25s ease;
+  transition: color .25s ease; }
+
+.reveal a:not(.image):hover {
+  color: #1295ea;
+  text-shadow: none;
+  border: none; }
+
+
+ul.secondary li {
+	margin-left: -30px;
+}
+
+.reveal li.active a {
+	color: #1295ea;
+}
+
+.reveal a.active {
+	color: #1295ea;	
+}
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #25211c; }
+
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: rgba(150,150,150,0.5); }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: rgba(150,150,150,0.5); }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: rgba(150,150,150,0.5); }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: rgba(150,150,150,0.5); }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: rgba(150,150,150,0.3); }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: rgba(150,150,150,0.3); }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: rgba(150,150,150,0.3); }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: rgba(150,150,150,0.3); }
+
+
+/* le content */
+
+.reveal > .slides div.contentContainer {
+	padding: 0 30px 0 30px;
+	overflow: hidden;
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+
+
+.reveal .contentContainer p {
+	text-align: justify;
+}
+
+.contentContainer form {
+	padding: 15px;
+}
+
+.reveal .slides .contentContainer > form .margin20 {
+	margin: 10px 20px;
+}
+
+.reveal .slides .marginTop15{
+	margin-top: 15%;
+}
+
+
+input, textarea, select {
+	opacity: 0.9;
+}
+
+input:focus, textarea:focus, select:focus {
+	opacity: 1;
+}
+
+.reveal section img {
+	border: none;
+}
